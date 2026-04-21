@@ -1,0 +1,18 @@
+//        try {
+//            favourites = new ArrayList<>(GET_SONGS());
+//
+//            for (Song song : favourites) {
+//                if (song.getLiked().equals(true)) {
+//                    FXMLLoader fxmlLoader = new FXMLLoader();
+//                    fxmlLoader.setLocation(getClass().getResource("song.fxml"));
+//
+//                    VBox vBox = fxmlLoader.load();
+//                    SongController songController = fxmlLoader.getController();
+//                    songController.setData(song);
+//
+//                    favoutireHBox.getChildren().add(vBox);
+//                }
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
